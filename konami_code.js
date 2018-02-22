@@ -4,6 +4,8 @@ let index = 0
 function onKeyDownHandler(e) {
   const key = parseInt(e.detail || e.which);
 
+console.log(e.detail)
+
   if(key === code[index]) {
     index++;
 
