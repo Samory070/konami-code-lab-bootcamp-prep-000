@@ -6,6 +6,8 @@ function onKeyDownHandler(e) {
 
   if(key === code[index]) {
     index++;
+
+    if(index === code.length)
   }
 }
 
